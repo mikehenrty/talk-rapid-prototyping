@@ -1,0 +1,7 @@
+- hypothesis
+- build bare minimum to test hypothesis
+  * stub as much as possible
+  * focus on the "feel" of the product
+- get feedback
+  * use it yourself
+  * get third parties to discuss
