@@ -1,7 +1,18 @@
 - hypothesis
+  * focus on the why
 - build bare minimum to test hypothesis
   * stub as much as possible
-  * focus on the "feel" of the product
+  * focus on the "feel" of the what you're making
 - get feedback
   * use it yourself
   * get third parties to discuss
+  * user testing
+
+PAPER AIRPLANE?
+planes, wallet, phones
+clothes (hat)
+
+document what they got back
+was the problem statement valid
+did users like it?
+
