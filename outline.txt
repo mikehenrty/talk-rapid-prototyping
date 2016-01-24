@@ -1,12 +1,23 @@
 - hypothesis
+  * Goal based
   * focus on the why
+
 - build bare minimum to test hypothesis
+  * doesn't have to be code
+  * wireframes, drawings
   * stub as much as possible
   * focus on the "feel" of the what you're making
+  * dont get lost in the details
+
 - get feedback
   * use it yourself
   * get third parties to discuss
   * user testing
+
+Pro Tips:
+  * Don't get lost in the details
+  * Measure everything!
+  * Question everything (process, hypothesis, tools)
 
 PAPER AIRPLANE?
 planes, wallet, phones
@@ -15,4 +26,7 @@ clothes (hat)
 document what they got back
 was the problem statement valid
 did users like it?
+
+10 groups
+
 

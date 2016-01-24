@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rapid Prototyping</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+    body {
+      background-image: url('img/bg.png');
+      background-position: center center;
+      background-size: auto 100%;
+    }
+    .reveal .slides section img {
+      max-height: 130px;
+      margin: 0;
+      background: none;
+      border: none;
+      box-shadow: unset;
+      border-radius: 10px;
+    }
+    .reveal .slides section {
+      background-color: rgba(0, 0, 0, 0.85);
+      border-radius: 28px;
+    }
+    .reveal .slides h2,
+    .reveal .slides h3,
+    .reveal .slides h4 {
+      text-transform: unset;
+    }
+    .reveal .slides h1 {
+      color: white;
+      animation: blinker 4s linear infinite;
+      font-size: 235px;
+      font-family: Impact, Charcoal, sans-serif;
+    }
+    @keyframes blinker {
+        50% { color: #00CAF2; }
+    }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section>
+          <h2>Hi ☺</h2>
+          <img src="img/me.jpg" />
+          <img src="img/pierros.jpg" />
+          <p>Michael Henretty, Pierros Papadeas</p>
+          <p>Engineers for Mozilla</p>
+          <a href="mailto:mikey@mozilla.com">mikey@mozilla.com</a><br />
+          <a href="mailto:pierros@mozilla.com">pierros@mozilla.com</a>
+        </section>
+
+        <section>
+          <h2>Hypothesis</h2>
+          <ul>
+            <li>Goal based</li>
+            <li>Focus on the Why?</li>
+            <li>SIMPLIFY!</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Build Walking Skeleton</h2>
+          <ul>
+            <li>Doesn't have to be code</li>
+            <li>wireframes, drawings, cardboard</li>
+            <li>stub everything you can</li>
+            <li>focus on the "feel"</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Get feedback</h2>
+          <ul>
+            <li>Use it yourself</li>
+            <li>Give it to friends</li>
+            <li>Find a third-party</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Repeat!</h2>
+        </section>
+
+        <section>
+          <h2>Pro Tip</h2>
+          <ul>
+            <li>Don't sweat the small stuff</li>
+            <li>Measure Everything</li>
+            <li>Question Everything (process, hypothesis, tools)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Paper Airplane-off</h2>
+          <ul>
+            <li>Break into groups of 3-5</li>
+            <li>Build Airplane Prototype</li>
+            <li>User Test</li>
+            <li>Repeat x3</li>
+            <li>Discuss Takeaways</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/line-numbers.js' },
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+  </body>
+</html>
